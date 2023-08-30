@@ -1,0 +1,52 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("ear.jpg");
+  background-size: cover;
+  margin: 0px;
+}
+
+.cal {
+  background-color: rgb(231, 231, 231);
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+input {
+  padding: 8px;
+  border: 1px;
+  border-style: solid;
+  border-radius: 10px;
+  width: 100px;
+  border-color: cadetblue;
+}
+
+.output {
+  margin-top: 20px;
+  font-weight: bold;
+  color: rgb(54, 122, 167);
+}
+
+button:hover {
+  background-color: #19bdbd;
+}
+
+label {
+  font-weight: bold;
+  color:teal;
+  font-family: 'Times New Roman', Times, serif;
+}
